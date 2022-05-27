@@ -50,7 +50,7 @@
 	},
 	"require-dev": {
 		"brianium/paratest": "^6.4.3",
-		"loophp/phposinfo": "1.6.5",
+		"loophp/phposinfo": "1.7.2",
 		"nategood/httpful": "^0.3",
 		"php-parallel-lint/php-parallel-lint": "^1.2.0",
 		"phpstan/phpstan-deprecation-rules": "^1.0",
@@ -59,7 +59,7 @@
 		"phpstan/phpstan-phpunit": "^1.0",
 		"phpstan/phpstan-strict-rules": "^1.0",
 		"phpunit/phpunit": "^9.5.4",
-		"rector/rector": "^0.12.15",
+		"rector/rector": "^0.13.0",
 		"vaimo/composer-patches": "^4.22"
 	},
 	"config": {
@@ -84,7 +84,7 @@
 				"src/"
 			]
 		},
-		"files": ["src/dumpType.php", "src/autoloadFunctions.php", "src/Testing/functions.php"]
+		"files": ["src/dumpType.php","src/Testing/functions.php"]
 	},
 	"autoload-dev": {
 		"psr-4": {
